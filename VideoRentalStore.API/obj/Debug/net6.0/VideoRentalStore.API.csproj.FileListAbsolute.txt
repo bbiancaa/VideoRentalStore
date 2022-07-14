@@ -24,3 +24,6 @@ C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\obj\
 C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\obj\Debug\net6.0\ref\VideoRentalStore.API.dll
 C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\obj\Debug\net6.0\VideoRentalStore.API.pdb
 C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\obj\Debug\net6.0\VideoRentalStore.API.genruntimeconfig.cache
+C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\bin\Debug\net6.0\VideoRentalStore.Core.dll
+C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\bin\Debug\net6.0\VideoRentalStore.Core.pdb
+C:\Users\LOGCTeDesenv02\Documents\VideoRentalStore_CLI\VideoRentalStore.API\obj\Debug\net6.0\VideoRentalStore.API.csproj.CopyComplete

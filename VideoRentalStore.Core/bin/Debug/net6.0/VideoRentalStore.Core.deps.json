@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "VideoRentalStore.API/1.0.0": {
-        "dependencies": {
-          "VideoRentalStore.Core": "1.0.0"
-        },
-        "runtime": {
-          "VideoRentalStore.API.dll": {}
-        }
-      },
       "VideoRentalStore.Core/1.0.0": {
         "runtime": {
           "VideoRentalStore.Core.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "VideoRentalStore.API/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "VideoRentalStore.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
