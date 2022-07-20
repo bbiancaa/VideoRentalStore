@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "VideoRentalStore.API/1.0.0": {
         "dependencies": {
-          "VideoRentalStore.Core": "1.0.0"
+          "VideoRentalStore.Core": "1.0.0",
+          "VideoRentalStore.Infrastructure": "1.0.0"
         },
         "runtime": {
           "VideoRentalStore.API.dll": {}
@@ -17,6 +18,11 @@
       "VideoRentalStore.Core/1.0.0": {
         "runtime": {
           "VideoRentalStore.Core.dll": {}
+        }
+      },
+      "VideoRentalStore.Infrastructure/1.0.0": {
+        "runtime": {
+          "VideoRentalStore.Infrastructure.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "VideoRentalStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VideoRentalStore.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

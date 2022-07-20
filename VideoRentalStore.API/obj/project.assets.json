@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/VideoRentalStore.Core.dll": {}
         }
+      },
+      "VideoRentalStore.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VideoRentalStore.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoRentalStore.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../VideoRentalStore.Core/VideoRentalStore.Core.csproj",
       "msbuildProject": "../VideoRentalStore.Core/VideoRentalStore.Core.csproj"
+    },
+    "VideoRentalStore.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../VideoRentalStore.Infrastructure/VideoRentalStore.Infrastructure.csproj",
+      "msbuildProject": "../VideoRentalStore.Infrastructure/VideoRentalStore.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "VideoRentalStore.Core >= 1.0.0"
+      "VideoRentalStore.Core >= 1.0.0",
+      "VideoRentalStore.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +76,9 @@
           "projectReferences": {
             "C:\\Users\\LOGCTeDesenv02\\Documents\\VideoRentalStore_CLI\\VideoRentalStore.Core\\VideoRentalStore.Core.csproj": {
               "projectPath": "C:\\Users\\LOGCTeDesenv02\\Documents\\VideoRentalStore_CLI\\VideoRentalStore.Core\\VideoRentalStore.Core.csproj"
+            },
+            "C:\\Users\\LOGCTeDesenv02\\Documents\\VideoRentalStore_CLI\\VideoRentalStore.Infrastructure\\VideoRentalStore.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\LOGCTeDesenv02\\Documents\\VideoRentalStore_CLI\\VideoRentalStore.Infrastructure\\VideoRentalStore.Infrastructure.csproj"
             }
           }
         }
