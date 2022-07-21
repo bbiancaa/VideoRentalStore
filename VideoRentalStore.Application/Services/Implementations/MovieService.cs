@@ -1,10 +1,8 @@
 using VideoRentalStore.Application.InputModels;
 using VideoRentalStore.Application.Services.Interfaces;
 using VideoRentalStore.Application.ViewModels;
-using System;
-using System.Collections.Generic;
-using VideoRentalStore.Infrastructure.Persistence;
 using VideoRentalStore.Core.Entities;
+using VideoRentalStore.Infrastructure.Persistence.Repositories;
 
 namespace VideoRentalStore.Application.Services.Implementations
 {
@@ -15,7 +13,7 @@ namespace VideoRentalStore.Application.Services.Implementations
         {
             _dbContext = dbContext;
         }
-         public int Create(NewMovieInputModel inputModel)
+         /*public int Create(NewMovieInputModel inputModel)
          {
              var movie = new Movie(inputModel.Name, inputModel.Description, inputModel.Genre);
              _dbContext.Movies.Add(movie);
@@ -23,9 +21,9 @@ namespace VideoRentalStore.Application.Services.Implementations
              return movie.Id;
          }
 
-         public void Delete (int id)
+        /* public void Delete (int id)
          {
-             var movie = _dbContext.Movie.SingleOrDefault(m => m.Id == id);
+             var movie = _dbContext.Movies.SingleOrDefault(m => m.Id == id);
              movie.Delete();
             //_dbContext.Movies.Delete
          }
@@ -39,9 +37,9 @@ namespace VideoRentalStore.Application.Services.Implementations
 
          public MovieDetailsViewModel GetById(int id)
          {
-             var movie = _dbContext.Movie.SingleOrDefault(m => m.Id == id);
+             var movie = _dbContext.Movies.SingleOrDefault(m => m.Id == id);
              var movieDetailsViewModel = new MovieDetailsViewModel(
-                 movie.Id,
+                 //movie.Id,
                  movie.Name,
                  movie.Description,
                  movie.Genre,
@@ -52,8 +50,8 @@ namespace VideoRentalStore.Application.Services.Implementations
 
          public void Update(UpdateMovieInputModel inputModel)
          {
-             var movie = _dbContext.Movie.SingleOrDefault(m => m.Id == inputModel.Id);
+             var movie = _dbContext.Movies.SingleOrDefault(m => m.Id == inputModel.Id);
              movie.Update(inputModel.Name, inputModel.Description, inputModel.Genre);
-         }
+         }*/
     }
 }

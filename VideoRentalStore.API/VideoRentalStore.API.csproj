@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\VideoRentalStore.Core\VideoRentalStore.Core.csproj" />
     <ProjectReference Include="..\VideoRentalStore.Infrastructure\VideoRentalStore.Infrastructure.csproj" />
+    <ProjectReference Include="..\VideoRentalStore.Application\VideoRentalStore.Application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

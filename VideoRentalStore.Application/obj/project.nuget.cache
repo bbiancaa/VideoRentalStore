@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hVTcL9oVloCyy60tzJPYT7sY/+OF0/M6rh1v9krdkKOOHwT8agIc0725yo2gWgUZn/M1U4X6OjoToyplYWN1zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LOGCTeDesenv02\\Documents\\VideoRentalStore_CLI\\VideoRentalStore.Application\\VideoRentalStore.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\LOGCTeDesenv02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

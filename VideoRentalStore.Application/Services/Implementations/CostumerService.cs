@@ -1,10 +1,9 @@
 using VideoRentalStore.Application.InputModels;
 using VideoRentalStore.Application.Services.Interfaces;
 using VideoRentalStore.Application.ViewModels;
-using System;
-using System.Collections.Generic;
-using VideoRentalStore.Infrastructure.Persistence;
 using VideoRentalStore.Core.Entities;
+using VideoRentalStore.Infrastructure.Persistence.Repositories;
+
 namespace VideoRentalStore.Application.Services.Implementations
 {
     public class CostumerService : ICostumerService
@@ -15,7 +14,7 @@ namespace VideoRentalStore.Application.Services.Implementations
             _dbContext = dbContext;
         }
 
-        public int Create(NewCostumerInputModel inputModel)
+        /*public int Create(NewCostumerInputModel inputModel)
          {
              var costumer = new Costumer(inputModel.Name, inputModel.Description, inputModel.Genre);
              _dbContext.Costumers.Add(costumer);
@@ -54,6 +53,6 @@ namespace VideoRentalStore.Application.Services.Implementations
          {
              var costumer = _dbContext.Costumer.SingleOrDefault(m => m.Id == inputModel.Id);
              costumer.Update(inputModel.Name, inputModel.Description, inputModel.Genre);
-         }
+         }*/
     }
 }
