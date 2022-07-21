@@ -1,4 +1,5 @@
-using VideoRentalStore.Application.ViewModels;
+using System;
+
 namespace VideoRentalStore.Core.Entities
 {
     public class Movie : BaseEntity
@@ -20,10 +21,10 @@ namespace VideoRentalStore.Core.Entities
         public DateTime? ReturnDate {get; private set;}
     }
 
-    public void Update(string name, string description, string genre)
+    /*public void Update(string name, string description, string genre)
     {
          Name = name,
          Description = description,
          Genre = genre,
-    }
+    }*/
 }
